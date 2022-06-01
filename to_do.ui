@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>To Fo List</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="add_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>72</y>
+      <width>130</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Item To List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_button">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>72</y>
+      <width>130</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete Item From List</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear_button">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>72</y>
+      <width>130</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear The List</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="line_edit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>580</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="list_widget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>580</width>
+      <height>331</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_button">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>72</y>
+      <width>130</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save To Database</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>620</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
